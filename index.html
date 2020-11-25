@@ -11,19 +11,56 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
     <title>Instagram</title>
+    <link rel="icon" href="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png">
 </head>
 <body>
     <!-- top bar -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 mx-auto">
-                <nav class="navbar navbar-light bg-light">
-                    <a class="navbar-brand">Instagram</a>
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </nav>
+    <div class="row">
+        <div class="col-lg-12 col-sm-4">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand"><h2><strong> Instagram <strong></h2></a>
+                <div class="icons">
+                    <button type="button" class="btn btn-light"><i class="fas fa-home fa-lg"></i></button>
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+                        <i class="fas fa-paper-plane fa-lg"></i>
+                    </button>
+                    <button type="button" class="btn btn-light"><i class="far fa-compass fa-lg"></i></button>
+                    <button type="button" class="btn btn-light "><i class="far fa-heart fa-lg"></i></button>
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="https://i.pinimg.com/474x/29/4c/b3/294cb357c2ae3576ebd6f7c2605cc095.jpg" alt="Avatar" class="avatar">
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                    </div>
+                    <!-- Modal Send -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contacts</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary">Send</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Modal Send End -->
+                </div>
+            </nav>
+        </div>
+    </div>
     <!-- end of top bar -->
     <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
@@ -37,29 +74,29 @@
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         <!-- Feed View -->
             <div class="row">
-            <div class="col-4 mx-auto">
+            <div class="col-lg-4 col-sm-11 mx-auto">
                 <div class="feed-view";>
                     <div class="card">
-                            <div class="card-header">Header</div>
+                            <div class="card-header">imclown321</div>
                             <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title"><i class="far fa-heart fa-lg"></i><i class="far fa-comment fa-lg"></i><i class="far fa-paper-plane fa-lg"></i></h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
                     <div class="card">
-                            <div class="card-header">Header</div>
-                            <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
+                            <div class="card-header">zorglub94</div>
+                            <img src="https://preview.redd.it/gjnbwuf9qc161.jpg?width=640&crop=smart&auto=webp&s=4e56a70ee1f53586ef2c283d60a3f22e2a6d1776" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title"><i class="far fa-heart fa-lg"></i><i class="far fa-comment fa-lg"></i><i class="far fa-paper-plane fa-lg"></i></h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
                     <div class="card">
-                            <div class="card-header">Header</div>
-                            <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
+                            <div class="card-header">AleGamingYT</div>
+                            <img src="https://i.redd.it/278n0kfyec161.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title"><i class="far fa-heart fa-lg"></i><i class="far fa-comment fa-lg"></i><i class="far fa-paper-plane fa-lg"></i></h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                     </div>
@@ -72,42 +109,31 @@
             <div class="tile">
                 <div class="container">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-4">
                             <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
                         </div>
-                        <div class="col">
+                        <div class="col-4">
                             <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
                         </div>
-                        <div class="col">
+                        <div class="col-4">
                             <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
                         </div>
-                        <div class="col">
+                        <div class="col-4">
                             <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
                         </div>
-                        <div class="w-100"></div>
-                        <div class="col">
+                        <div class="col-4">
                             <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
                         </div>
-                        <div class="col">
+                        <div class="col-4">
                             <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
                         </div>
-                        <div class="col">
+                        <div class="col-4">
                             <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
                         </div>
-                        <div class="col">
+                        <div class="col-4">
                             <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
                         </div>
-                        <div class="w-100"></div>
-                        <div class="col">
-                            <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
-                        </div>
-                        <div class="col">
-                            <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
-                        </div>
-                        <div class="col">
-                            <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
-                        </div>
-                        <div class="col">
+                        <div class="col-4">
                             <img src="https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" class="card-img-top" alt="...">
                         </div>
                     </div>
